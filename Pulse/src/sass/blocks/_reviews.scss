@@ -1,0 +1,42 @@
+.reviews {
+    padding-bottom: 48px;
+    /* min-height: 920px; */
+
+    &__item {
+        margin-top: 60px;
+        display: flex;
+        &:nth-child(2) {
+            margin-top: 70px;
+        }
+    }
+
+    &__img {
+        width: 169px;
+        height: 169px;
+    }
+
+    &__text {
+        margin-left: 61px;
+        padding-right: 60px;
+    }
+
+    &__client-name {
+        font-weight: bold;
+        font-size: 18px;
+        color: #0D0D0D;
+    }
+
+    &__experience {
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+    }
+
+    &__descr {
+        margin-top: 10px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0D0D0D;
+    }
+}
